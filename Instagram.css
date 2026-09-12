@@ -1,0 +1,213 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;}
+            
+     body {
+            font-family: Arial, sans-serif;
+            background: white;
+            color: #111;
+        }
+
+        /* HEADER */
+        .header {
+            height: 65px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            padding: 0 25px;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            background: white;
+          justify-content: space-between;
+        }
+
+        .logo {
+         
+          font-family: "Grand Hotel", cursive;
+          font-weight: 600px;
+          font-style: normal;
+          width: 220px;
+          font-size: 30px;
+}
+
+        
+
+        .search {
+            width: 500px;
+            height: 38px;
+            border: none;
+            background: rgb(231, 231, 231);
+            border-radius: 20px;
+            padding: 0 20px;
+            outline: none;
+            margin-left: 40px;
+        }
+
+        .create {
+            margin-left: auto;
+            background: linear-gradient(90deg, #ff6b3d, #ff1493);
+            color: white;
+            border: none;
+            padding: 11px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .notification {
+            font-size: 20px;
+            margin-left: 25px;
+            margin-top: 5px;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            position: fixed;
+            top: 65px;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            border-right: 1px solid #ddd;
+            padding: 25px 15px;
+            background: rgb(243, 243, 243);
+            height: 100%;
+        }
+
+        .menu {
+            list-style: none;
+        }
+
+        .menu li {
+            padding: 13px 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .menu li:hover {
+            background: #f2f2f2;
+            border-radius: 8px;
+        }
+
+        /* MAIN AREA */
+        .main {
+            margin-left: 180px;
+            padding-top: 90px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+           
+        }
+
+        /* STORIES */
+        .stories {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .story {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            padding: 3px;
+            border: 3px solid #ff1493;
+        }
+
+        .story img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* POST */
+        .post {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .post-user {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .post img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 6px;
+            display: block;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            width: 280px;
+            padding-top: 15px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 35px;
+        }
+
+        .profile img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: 2px solid #ff1493;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 14px;
+        }
+
+        .profile-name b {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .follow {
+            color: #1877f2;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+
+        .suggest-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .suggestion {
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .suggestion img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid #ff1493;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        .suggestion-name {
+            font-size: 13px;
+            flex: 1;
+        }
+
+        .suggestion a {
+            color: #1877f2;
+            font-size: 12px;
+            text-decoration: none;
+        }
